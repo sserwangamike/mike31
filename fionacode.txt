@@ -115,7 +115,7 @@
   <section id="gallery">
     <h2>Gallery</h2>
     <div class="gallery">
-      <img src=" alt="Clinic Front View">
+      <img src="blob:https://web.whatsapp.com/4d65e8d7-4919-481a-afd6-33d19689de84" alt="Clinic Front View">
       <img src="clinic2.jpg" alt="Inside the Clinic">
       <img src="clinic3.jpg" alt="Staff at Work">
       <video controls>
@@ -143,4 +143,5 @@
     <p>&copy; 2025 Fiona Clinic | All Rights Reserved</p>
   </footer>
 </body>
+
 </html>
