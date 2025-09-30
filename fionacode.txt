@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiona Clinic</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9; color: #333;
+    }
+    header {
+      background: #009688;
+      color: white;
+      padding: 30px 40px;
+      text-align: center;
+    }
+    nav {
+      background: #00695c;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #00695c;
+    }
+    footer {
+      background: #009688;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    .gallery img, .gallery video {
+      width: 30%;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .contact-form button {
+      background: #009688;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .contact-form button:hover { background: #00796b; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style = "color:blue;">Welcome to Fiona Clinic</h1>
+    <p>Quality Healthcare for a Healthier Tomorrow</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Home Page -->
+  <section id="home">
+    <h2>Home</h2>
+    <p>At Fiona Clinic, located in masaka, we provide trusted medical care with modern facilities and compassionate staff. Your health is our priority.</p>
+    <video controls width="100%">
+      <source src="clinic-intro.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+  </section>
+
+  <!-- About Page -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Fiona Clinic is a community-based health center offering affordable and reliable medical services. Our mission is to improve lives through quality healthcare, while our vision is a healthier community.</p>
+    <p><b>Our Team:</b> Experienced doctors, nurses, and support staff dedicated to your well-being.</p>
+  </section>
+
+  <!-- Services Page -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>General Consultation</li>
+      <li>Maternity and Child Care</li>
+      <li>Laboratory Services</li>
+      <li>Vaccination and Immunization</li>
+      <li>Minor Surgeries</li>
+      <li>Pharmacy Services</li>
+      <li>Health Education and Counseling</li>
+    </ul>
+  </section>
+
+  <!-- Gallery Page -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src=" alt="Clinic Front View">
+      <img src="clinic2.jpg" alt="Inside the Clinic">
+      <img src="clinic3.jpg" alt="Staff at Work">
+      <video controls>
+        <source src="clinic-tour.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <!-- Contact Page -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><b>Location:</b> masaka</p>
+    <p><b>Phone:</b> +256 752813577 /+256 757922932</p>
+    <p><b>Email:</b> sakormoses@yahoo.com</p>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fiona Clinic | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
